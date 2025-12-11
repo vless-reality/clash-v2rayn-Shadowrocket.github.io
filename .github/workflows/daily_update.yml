@@ -1,0 +1,46 @@
+name: Auto Update VPN Nodes
+
+on:
+  schedule:
+    # 北京时间每天早上 8 点运行 (UTC 时间 0 点)
+    - cron: '0 0 * * *'
+  workflow_dispatch: # 允许手动点击按钮运行
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write  # 赋予写权限，以便提交修改
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          pip install requests pytz
+
+      - name: Run update script
+        run: |
+          python update_links.py
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # 检查是否有文件变动
+          if [ -n "$(git status --porcelain)" ]; then
+            git add README.md
+            git commit -m "🚀 Auto Update: Verified VPN nodes list [$(date +'%Y-%m-%d')]"
+            git push
+            echo "Changes pushed successfully."
+          else
+            echo "No changes to commit."
+          fi
