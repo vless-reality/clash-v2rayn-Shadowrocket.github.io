@@ -28,7 +28,7 @@ jobs:
 
       - name: Run update script
         run: |
-          python update_links.py
+          python .github/scripts/update_links.py
 
       - name: Commit and Push changes
         run: |
