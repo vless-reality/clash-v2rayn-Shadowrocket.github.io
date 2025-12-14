@@ -10,18 +10,11 @@ import random  # <--- 1. 引入随机模块
 # --------------------------------------------------------------------------------
 SOURCES = [
     # Clash 订阅源
-    ("ChromeGo Merge", "https://raw.githubusercontent.com/Misaka-blog/chromego_merge/main/sub/base64.txt", "clash"),
-    ("Ermaozi Clash", "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml", "clash"),
-    ("VPE Clash", "https://raw.githubusercontent.com/vpe/free-proxies/main/clash/provider.yaml", "clash"),
-    ("Pmsub Clash", "https://sub.pmsub.me/clash.yaml", "clash"),
-    ("Maoo Clash", "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/EternityAir", "clash"),
+    ("ChromeGo Merge", "https://raw.githubusercontent.com/vless-reality/clash-v2rayn-Shadowrocket/refs/heads/main/.github/links/clash.yaml", "clash")
     
     # V2Ray/Base64 订阅源
-    ("Ermaozi V2ray", "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt", "v2ray"),
-    ("FreeFQ", "https://raw.githubusercontent.com/freefq/free/master/v2", "v2ray"),
-    ("Pmsub Base64", "https://sub.pmsub.me/base64", "v2ray"),
-    ("Pawdroid", "https://raw.githubusercontent.com/pawdroid/Free-servers/main/sub", "v2ray"),
-    ("Aiboboxx", "https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2", "v2ray")
+    ("Ermaozi V2ray", "https://raw.githubusercontent.com/vless-reality/clash-v2rayn-Shadowrocket/refs/heads/main/.github/links/v2.txt", "v2rayn通用")
+
 ]
 
 # --------------------------------------------------------------------------------
