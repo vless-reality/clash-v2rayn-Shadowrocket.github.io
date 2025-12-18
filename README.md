@@ -29,17 +29,13 @@
 ### 1. 免费试用/白嫖首选
 > 这些机场提供慷慨的试用流量，适合临时应急或轻度使用。
 
-*   **奈云 (Naiyun)**: [https://www.v2ny.com](https://www.v2ny.com) - 注册试用3天 5G，节点质量较高，速度不错。
-*   **Speedy**: [https://cloud.speedypro.xyz](https://cloud.speedypro.xyz) - 注册送 7天 10G，时长给的很慷慨。
-*   **狗头加速器**: [https://lksi.xyz](https://lksi.xyz) - 注册送 5天 5G，包含常用地区节点。
-*   **雨燕云**: [https://yuyan.online](https://yuyan.online) - 隧道中转机场，提供 8小时 1G 试用，适合测试连通性。
-
-### 2. 高性价比/低价备用 (几块钱)
-> 如果免费节点不稳定，可以考虑这些“几块钱”的超低价机场作为备用，跑路也不心疼。
-
+*   **云猫**: [https://gi.yuncat.top](https://gi.yuncat.top) - 除了延迟有一点点高,网页和视频速度不错,也解锁全部chatgpt和gemini流媒体,价格便宜,注册试用30天 5G，。
+*   **Speedy**: [https://cloud.speedyproa.xyz](https://cloud.speedypro.xyz) - 注册送 7天 10G，时长给的很慷慨。
+*   **狗头加速器**: [https://lksia.xyz](https://lksi.xyz) - 注册送 5天 5G，包含常用地区节点。
+*   **雨燕云**: [https://yuyana.online](https://yuyan.online) - 隧道中转机场，提供 8小时 1G 试用，适合测试连通性。
 *   **魔戒**: [https://www.mojie.me](https://www.mojie.me) - 主打**按量付费**，1元起充，不限时间，用多少扣多少，极佳的备用选择。
-*   **一元机场**: [https://xn--4gq62f52gdss.com](https://xn--4gq62f52gdss.com) - 顾名思义，11元/年，主要图个便宜，适合对速度要求不高的用户。
-*   **泰山机场**: [https://www.taishan.pro](https://www.taishan.pro) - 价格低至8.5元/月，流量大，新晋高性价比选择。
+*   **一元机场**: [https://xn--4gq62f52gdssa.com](https://xn--4gq62f52gdss.com) - 顾名思义，11元/年，主要图个便宜，适合对速度要求不高的用户。
+*   **泰山机场**: [https://www.taishana.pro](https://www.taishan.pro) - 价格低至8.5元/月，流量大，新晋高性价比选择。
 
 *(注：如果你发现上述链接失效，请在 Issues 中反馈，我会及时移除)*
 
@@ -55,7 +51,7 @@
 ### 1. ChromeGo_Merge (自动优选推荐)
 目前维护最勤快的节点池之一，由志愿者维护。
 ```yaml
-https://raw.githubusercontent.com/vless-reality/clash-v2rayn-Shadowrocket/refs/heads/main/.github/links/clash.yaml
+https://raw.githubusercontent.com/vless-reality/clash-v2rayn-Shadowrocket/refs/heads/main/.github/links/v2.txt
 ```
 
 ### 2. Clash 订阅链接 (.yaml)
@@ -66,7 +62,7 @@ https://raw.githubusercontent.com/vless-reality/clash-v2rayn-Shadowrocket/refs/h
 
 ### 3. V2Ray/SSR 订阅链接 (Base64)
 适用于 v2rayN, Shadowrocket, QuantumultX
-```text
+```yaml
 https://raw.githubusercontent.com/vless-reality/clash-v2rayn-Shadowrocket/refs/heads/main/.github/links/v2.txt
 ```
 
