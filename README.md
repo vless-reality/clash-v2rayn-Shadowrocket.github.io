@@ -17,7 +17,7 @@
 
 ---
 
-## 🗓️ 更新日志 (<!-- DATE_START -->2025.12.17<!-- DATE_END -->)
+## 🗓️ 更新日志 (<!-- DATE_START -->2025.12.18<!-- DATE_END -->)
 
 *   [新增] 自动脚本已部署，每日定时检测节点有效性。
 *   [优化] 引入随机排序机制，防止头部节点拥堵。
@@ -51,7 +51,7 @@
 ### 1. ChromeGo_Merge (自动优选推荐)
 目前维护最勤快的节点池之一，由志愿者维护。
 ```yaml
-https://raw.githubusercontent.com/vless-reality/clash-v2rayn-Shadowrocket/refs/heads/main/.github/links/v2.txt
+https://raw.githubusercontent.com/vless-reality/clash-v2rayn-Shadowrocket/refs/heads/main/.github/links/clash.yaml
 ```
 
 ### 2. Clash 订阅链接 (.yaml)
@@ -62,7 +62,7 @@ https://raw.githubusercontent.com/vless-reality/clash-v2rayn-Shadowrocket/refs/h
 
 ### 3. V2Ray/SSR 订阅链接 (Base64)
 适用于 v2rayN, Shadowrocket, QuantumultX
-```yaml
+```text
 https://raw.githubusercontent.com/vless-reality/clash-v2rayn-Shadowrocket/refs/heads/main/.github/links/v2.txt
 ```
 
