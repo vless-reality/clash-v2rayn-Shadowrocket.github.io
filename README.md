@@ -29,7 +29,7 @@
 ### 1. 免费试用/白嫖首选
 > 这些机场提供慷慨的试用流量，适合临时应急或轻度使用。
 
-*   **云猫**: [https://gi.yuncat.top](https://gi.yuncat.top) - 除了延迟有一点点高,网页和视频速度不错,也解锁全部chatgpt和gemini流媒体,价格便宜,注册试用30天 5G，。
+*   **云猫**: [https://gi.yuncat.top](https://gi.yuncat.top) - 除了延迟有一点点高,实际网页和视频速度很快,也解锁全部chatgpt和gemini流媒体,价格便宜,注册试用30天 5G，。
 *   **Speedy**: [https://cloud.speedyproa.xyz](https://cloud.speedyproa.xyz) - 注册送 7天 10G，时长给的很慷慨。
 *   **狗头加速器**: [https://lksia.xyz](https://lksia.xyz) - 注册送 5天 5G，包含常用地区节点。
 *   **雨燕云**: [https://yuyan.online](https://yuyan.online) - 隧道中转机场，提供 8小时 1G 试用，适合测试连通性。
